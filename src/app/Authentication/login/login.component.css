@@ -1,0 +1,31 @@
+.login-card {
+  /* background-color: #eeeeee; */
+  min-width: 20rem;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.login-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.login-form {
+  background-color: aqua;
+}
+
+.login-full-width {
+  width: 100%;
+}
+
+.login-button {
+  width: 50%;
+}
+
+.login-footer {
+  font-size: small;
+}
+
+mat-form-field {
+  margin: 0.5rem 0rem;
+}

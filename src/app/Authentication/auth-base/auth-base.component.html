@@ -1,0 +1,12 @@
+<mat-grid-list cols="2" rowHeight="100%" style="margin: 0px 8px;">
+    <mat-grid-tile>
+        <span [ngSwitch]="authWidget">
+            <app-login *ngSwitchCase="0"></app-login>
+            <app-register *ngSwitchCase="1"></app-register>
+            <app-forgot-password *ngSwitchCase="2"></app-forgot-password>
+        </span>
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <img alt="Pets Image" src="assets/images/pets.jpg">
+    </mat-grid-tile>
+</mat-grid-list>
